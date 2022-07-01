@@ -26,7 +26,7 @@
 }
 
 .movieImage {
-    height: auto;
+    height: 850px;
     background-color: black;
     margin: 5px;
     padding: 5px;
@@ -34,6 +34,10 @@
 
 .images {
     height: 500px
+}
+
+.desc {
+  height: 340px;
 }
 
 .superhero {
