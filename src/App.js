@@ -4,6 +4,9 @@ import NavigationBar from "./components/NavigationBar"
 import Intro from './components/Intro';
 import Trending from './components/Trending';
 import UpComing from './components/UpComing';
+import Footer from './components/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function App() {
   return (
@@ -26,6 +29,14 @@ function App() {
         <UpComing/>
       </div>
       {/* end of upcoming section */}
+      
+      {/* footer section */}
+      <div className='footer'>
+        <Footer/>
+      </div>
+      {/* end of footer section */}
+
+
    </div>
   )
 }
