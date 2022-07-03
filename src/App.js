@@ -3,7 +3,7 @@ import './style/landingPage.css';
 import NavigationBar from "./components/NavigationBar"
 import Intro from './components/Intro';
 import Trending from './components/Trending';
-import SuperHero from './components/Superhero';
+import UpComing from './components/UpComing';
 
 function App() {
   return (
@@ -21,11 +21,11 @@ function App() {
       </div>
       {/* end of trending section */}
 
-      {/* superhero section */}
-      <div className='superhero'>
-        <SuperHero/>
+      {/* upcoming section */}
+      <div className='upcoming'>
+        <UpComing/>
       </div>
-      {/* end of superhero section */}
+      {/* end of upcoming section */}
    </div>
   )
 }
